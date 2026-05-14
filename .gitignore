@@ -4,3 +4,6 @@
 # VitePress
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+# Node.js
+node_modules/
