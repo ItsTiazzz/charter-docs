@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Charter",
   description: "Unofficial documentations for THE mod about contracts, covenants, and regrets.",
-  base: 'charter-docs',
+  base: '/charter-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
