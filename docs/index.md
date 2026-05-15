@@ -9,22 +9,22 @@ hero:
   actions:
     - theme: alt
       text: (Outdated) official wiki
-      link: https://ladysnake.dev
+      link: https://ladysnake.dev/wiki/charter
     - theme: alt
       text: (Outdated) official GitHub
-      link: https://github.com
+      link: https://github.com/Arathain/charter
 
 features:
   - title: Introduction
-    icon: ">>"
+    icon: "⏩"
     details: What is Charter? And why does this wiki exist?
     link: /introduction/charter
   - title: Content
-    icon: "C"
+    icon: "📍"
     details: Getting started with the content this mod offers.
     link: /content
   - title: Information & Lore
-    icon: "?!"
+    icon: "⁉️"
     details: Pages that go into some detail about the lore and story of the mod.
     link: /info
 ---

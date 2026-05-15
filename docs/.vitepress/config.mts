@@ -14,51 +14,105 @@ export default defineConfig({
       { text: 'Information', link: '/info' },
     ],
 
+    search: {
+      provider: 'local'
+    },
+
+    editLink: {
+      pattern: 'https://github.com/ItsTiazzz/Krafter/edit/master/docs/:path'
+    },
+
+    externalLinkIcon: true,
+
     sidebar: {
-      'introduction': {
+      'introduction/': [{
         text: 'Introduction',
         items: [
           {text: 'About Charter', link: '/introduction/charter'},
           {text: 'About this wiki', link: '/introduction/wiki'},
         ]
-      },
-      'content': {
+      }],
+      'content/': [{
         text: 'Content',
         items: [
           {text: 'Getting started', link: '/content'},
           {
             text: 'Items', items: [
-              item('Arm', '/content/items/arm'),
-              item('Contract', '/content/items/contract'),
-              item('Totem', '/content/items/totem'),
-            ]
+              item('Arm'),
+              item('Contract'),
+              item('Gauntlets'),
+              item('Hoarder Maw'),
+              item('Merchant Effigy'),
+            ],
+            collapsed: true
           },
           {
             text: 'Blocks', items: [
-              // item('Stone', '/content/blocks/stone'),
-            ]
+              block('Charter Stone'),
+              block('Pawn'),
+            ],
+            collapsed: true
+          },
+          {
+            text: 'Entities', items: [
+              entity('Bloodfly'),
+              entity('Chains'),
+            ],
+            collapsed: true
           },
           {
             text: 'Mechanics', items: [
-              // item('Arm', '/content/items/arm'),
-            ]
+              mech('Charters'),
+              mech('Debt'),
+            ],
+            collapsed: true
+          },
+          {
+            text: 'Leaks', items: [
+              leak('Charter Borders'),
+              mech('Commands'),
+              mech('Entities'),
+              mech('Other'),
+            ],
+            collapsed: true
           },
         ]
-      },
-      'info': {
+      }],
+      'info': [{
         text: 'Information',
         items: [
           {text: 'Information & Lore', link: '/info'},
         ]
-      },
+      }],
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+
+  cleanUrls: true,
+  lastUpdated: true,
+  ignoreDeadLinks: true,
 })
 
-export function item(name: string, link: string) {
-  return {text: name, link: link}
+export function item(name: string) {
+  return {text: name, link: '/content/items/' + name.toLowerCase().replace(' ', '-')}
 }
+
+export function block(name: string) {
+  return {text: name, link: '/content/blocks/' + name.toLowerCase().replace(' ', '-')}
+}
+
+export function entity(name: string) {
+  return {text: name, link: '/content/entities/' + name.toLowerCase().replace(' ', '-')}
+}
+
+export function mech(name: string) {
+  return {text: name, link: '/content/mechanics/' + name.toLowerCase().replace(' ', '-')}
+}
+
+export function leak(name: string) {
+  return {text: name, link: '/content/mechanics/' + name.toLowerCase().replace(' ', '-')}
+}
+

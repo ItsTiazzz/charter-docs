@@ -129,3 +129,20 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+/**
+ * Own additions
+ * -------------------------------------------------------------------------- */
+
+.subtitle {
+  font-size: 0.9em;
+  color: #918e8e;
+  margin-top: -10px;
+}
+
+kbd {
+  /*background-color: #eee;*/
+  border-radius: 4px;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+}
