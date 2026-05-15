@@ -14,12 +14,14 @@ export default defineConfig({
       { text: 'Information', link: '/info' },
     ],
 
+    logo: "/logo.png",
+
     search: {
       provider: 'local'
     },
 
     editLink: {
-      pattern: 'https://github.com/ItsTiazzz/Krafter/edit/master/docs/:path'
+      pattern: 'https://github.com/ItsTiazzz/charter-docs/edit/master/docs/:path'
     },
 
     externalLinkIcon: true,

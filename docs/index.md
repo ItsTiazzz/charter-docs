@@ -6,6 +6,9 @@ hero:
   name: "Charter"
   text: "Contracts, covenants, and regrets."
   tagline: The unofficial documentation for Charter
+  image:
+    src: /logo.png
+    alt: Charter Icon
   actions:
     - theme: alt
       text: (Outdated) official wiki
