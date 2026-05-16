@@ -22,3 +22,5 @@ can pass through.
 This wall is one-way, meaning that if a third-party player is inside the Charter, they
 can leave, but they cannot enter again.
 
+We are currently investigating whether overlapping Charters merge their walls into one big wall or
+if they have separate walls inside each other instead.

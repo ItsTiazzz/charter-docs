@@ -72,9 +72,9 @@ export default defineConfig({
           {
             text: 'Leaks', items: [
               leak('Charter Borders'),
-              mech('Commands'),
-              mech('Entities'),
-              mech('Other'),
+              leak('Commands'),
+              leak('Entities'),
+              leak('Other'),
             ],
             collapsed: true
           },
@@ -115,6 +115,6 @@ export function mech(name: string) {
 }
 
 export function leak(name: string) {
-  return {text: name, link: '/content/mechanics/' + name.toLowerCase().replace(' ', '-')}
+  return {text: name, link: '/content/leaks/' + name.toLowerCase().replace(' ', '-')}
 }
 
