@@ -91,7 +91,6 @@ export default defineConfig({
           {
             text: 'Leaks', items: [
               leak('Charter Borders'),
-              leak('Commands'),
               leak('Entities'),
               leak('Other'),
             ],
