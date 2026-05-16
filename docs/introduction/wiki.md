@@ -1,11 +1,11 @@
 # About this wiki
 
-Hi! We’re Val and Tiazzz, the people who founded this Wiki!
+Hi! We’re Val and Sylvia, the people who founded this Wiki!
 
 This Wiki was made because information on the public versions of Charter is scarce at best, 
 and both we and others were in desperate need to have a quick info-point to get info from.
 
-NOTE: We did NOT make the mod, do NOT falsely credit Val or Tiazzz.
+NOTE: We did NOT make the mod, do NOT falsely credit Val or Sylvia.
 
 So without further ado, if there's any info we missed here and there, feel free 
 to DM thefurru or tywrap_studios on Discord, or ping us somewhere in the Rattiest Gang Discord server.
@@ -50,9 +50,9 @@ to quickly convey repetitive information about a page. Here is what they mean:
   final release of the revamp. Note that this is not a full guarantee. We're just about 99% sure.
 - <Badge type="danger" text="Cut Content" /> is content of which is known that it won't 
   be added to the final release of the revamp, but is present in the public preview.
-- <Badge type="warning" text="Preview Content" /> is content that is present in the preview,
+- <Badge type="warning" text="Preview Content" /> is content that is present in the preview, 
   and could be changed heavily before the final release.
-- <Badge type="info" text="WIP" /> are pages that aren't fully finished yet, or that do not
+- <Badge type="info" text="WIP" /> are pages that aren't fully finished yet, or that do not 
   contain enough information to be considered done. 
 
 
@@ -63,6 +63,18 @@ outdated info. To see when something was discovered or added, you can reference 
 Note: before version 2, this wiki was made on Trello. The old Trello wiki still
 exists, and the links refer to the old cards. You are currently on the "new" wiki, and 
 the links to the old cards are just for reference.
+
+#### Update 2 May 2026 - Sylvia (formerly Tiazzz)
+
+- Ported all the content from Trello to a VitePress site;
+- Improved literally all the pages in small, subtle ways such as:
+  - Improving layout;
+  - Adding more headings and links to external sites;
+  - Adding more/better explanation on a few topics;
+  - Improving the image placement;
+  - And much more!
+- Improved ordering, organisation and labels;
+- Fixed a lot of spelling and bad phrasing.
 
 #### Update 1.4.1 15/12/2024 - Tiazzz
 
