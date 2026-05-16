@@ -22,7 +22,7 @@ const members = [
   {
     avatar: 'https://cdn.discordapp.com/avatars/697182688666452009/8916c6303b6fad1d2cdce25317c29552.webp?size=1024',
     name: 'Val (TheFurru)',
-    title: 'Creator',
+    title: 'Founder, Lead Tester',
     links: [
       { icon: 'discord', link: 'https://discordapp.com/users/697182688666452009'}
     ]
@@ -30,7 +30,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/163735662',
     name: 'Sylvia (ItsTiazzz)',
-    title: 'Creator, Wiki Maintainer',
+    title: 'Founder, Lead Wiki Developer',
     links: [
       { icon: 'github', link: 'https://github.com/ItsTiazzz' },
       { icon: 'youtube', link: 'https://youtube.com/@TiazzzDT' },
