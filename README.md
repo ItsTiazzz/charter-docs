@@ -38,3 +38,20 @@ into the wiki.
 
 Make sure to always `build` and `preview` before submitting changes, as some features
 may work in `dev`, but will need some specific tailoring for the final dist. Thanks!
+
+## Translating
+If you want to translate the wiki into a different language, preferably make a PR
+and follow this [VitePress guide](https://vitepress.dev/guide/i18n). If you can't, send us a compressed
+archive of just the page contents via Discord or e-mail, and we'll figure out the rest with you, such
+as the sidebar and nav.
+
+A few things to remember when translating:
+- Do not change the folder structure or file names. While you are free to change the contents
+of the pages, you should keep the structure consistent with the English version, as well as 
+our custom header anchors.
+- Remember that, in case you're PR'ing, you also need to change things in the
+`config.mts`, such as the sidebars and navigation.
+- Credit yourself!! Add yourself in the entry on the About this wiki page on your
+translation telling that you translated it! Translation is the first step in making content online
+accessible to people all over the world, and you _definitely_ deserve recognition for helping
+us with that step.
