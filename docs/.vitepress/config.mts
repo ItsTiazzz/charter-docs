@@ -12,6 +12,25 @@ export default defineConfig({
       { text: 'Introduction', link: '/introduction/charter' },
       { text: 'Content', link: '/content' },
       { text: 'Information', link: '/info' },
+      { text: 'More', items: [
+          { text: 'Repositories', items: [
+              { text: 'Arathain\'s GitHub', link: 'https://github.com/Arathain/charter'},
+              { text: 'Our GitHub', link: 'https://github.com/ItsTiazzz/charter-docs'},
+            ]
+          },
+          { text: 'Old Wikis', items: [
+              { text: 'Old LadySnake Wiki', link: 'https://ladysnake.dev/wiki/charter'},
+              { text: 'Old Trello Wiki', link: 'https://trello.com/b/3JgDELLR/val-and-tiazzz-fanmade-charter-trello'},
+            ]
+          },
+          { text: 'Discords', items: [
+              { text: 'Rattiest Gang', link: 'https://discord.gg/'},
+              { text: 'LadySnake', link: 'https://discord.gg/'},
+              { text: 'Tywrap Studios', link: 'https://discord.gg/'},
+            ]
+          },
+        ]
+      },
     ],
 
     logo: "/logo.png",
@@ -89,7 +108,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Arathain/charter' }
     ]
   },
 
