@@ -5,6 +5,7 @@ name: Deploy VitePress site to Pages
 on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
   # using the `master` branch as the default branch.
+  # TODO: Remove on push for final release and replace it with on release.
   push:
     branches: [master]
 
