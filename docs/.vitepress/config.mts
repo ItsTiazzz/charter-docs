@@ -4,6 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Charter",
   description: "Unofficial documentations for THE mod about contracts, covenants, and regrets.",
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/charter-docs/favicon-96x96.png', sizes: '96x96'}],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/charter-docs/favicon.svg'}],
+    ['link', { rel: 'shortcut icon', href: '/charter-docs/favicon.ico'}],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/charter-docs/apple-touch-icon.png'}],
+    ['link', { rel: 'manifest', href: '/charter-docs/site.webmanifest'}],
+  ],
   base: '/charter-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,9 +31,9 @@ export default defineConfig({
             ]
           },
           { text: 'Discords', items: [
-              { text: 'Rattiest Gang', link: 'https://discord.gg/'},
-              { text: 'LadySnake', link: 'https://discord.gg/'},
-              { text: 'Tywrap Studios', link: 'https://discord.gg/'},
+              { text: 'Rattiest Gang', link: 'https://discord.gg/rattiestgang'},
+              { text: 'LadySnake', link: 'https://discord.ladysnake.org/'},
+              { text: 'Tywrap Studios', link: 'https://tiazzz.me/discord'},
             ]
           },
         ]
